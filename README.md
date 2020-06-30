@@ -40,3 +40,5 @@
 - need to set up `git` account credentials 
 - was `infinite loop` of releases, need to use `[ci skip]`
 - `<scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>`
+
+- fake commit to test -skip ci
