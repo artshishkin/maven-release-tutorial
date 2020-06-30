@@ -16,5 +16,10 @@
                 ${env.PCLOUD}
             </password>
         </server>
+        <server>
+            <id>github</id>
+            <username>d.art.shishkin@gmail.com</username>
+            <password>${env.GIT_PWD}</password>
+        </server>
     </servers>
 </settings>

@@ -36,4 +36,7 @@
 - created `settings.xml` with settings to deploy to PackageCloud `server`
 
 ##168 CircleCI Release to PackageCloud
-- `--batch-mode` - use default value when running `mvn` command (i.e. `release:prepare`)  
+- `--batch-mode` - use default value when running `mvn` command (i.e. `release:prepare`) 
+- need to set up `git` account credentials 
+- was `infinite loop` of releases, need to use `[ci skip]`
+- `<scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>`
