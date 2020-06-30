@@ -2,4 +2,4 @@
 target/
 /.idea/
 /release.properties
-/pom.xml.releaseBackup
+/pom.xml.*
