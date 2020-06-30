@@ -8,14 +8,16 @@
 
 ##162 Maven Release Prepare and Perform
 - `mvn clean release:prepare`
-- `mvn  release:perform`
+- `mvn release:perform`
 
 ##163 Maven Release Rollback
 - `mvn clean release:prepare`
-- `mvn clean release:rollback`
+- `mvn release:rollback`
 - delete Tag with  Atlassian Sourcetree
 
 ##164 Maven Release Example Error
 - added dependency to `SNAPSHOT` version
 - `mvn clean release:prepare`
-- `mvn clean release:clean`
+- Got an error: 
+```Can't release project due to non released dependencies :...SNAPSHOT```
+- `mvn release:clean` (because we hot release.properties)
