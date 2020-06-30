@@ -15,4 +15,7 @@
 - `mvn clean release:rollback`
 - delete Tag with  Atlassian Sourcetree
 
-
+##164 Maven Release Example Error
+- added dependency to `SNAPSHOT` version
+- `mvn clean release:prepare`
+- `mvn clean release:clean`
