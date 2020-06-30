@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/artshishkin/maven-release-tutorial.svg?style=svg)](https://circleci.com/gh/artshishkin/maven-release-tutorial)
+
 #16 Maven Release Plugin Tutorial
 
 ##160-161 Maven SCM Configuration
@@ -28,3 +30,7 @@
 - `mvn release:clean`
 
 ##166 CircleCI Configuration
+
+##167 CircleCI Deploy to PackageCloud
+- added environment variable `PCLOUD` to CircleCI (PackageCloud API Token)
+- created `settings.xml` with settings to deploy to PackageCloud `server` 
