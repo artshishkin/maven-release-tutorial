@@ -21,3 +21,8 @@
 - Got an error: 
 ```Can't release project due to non released dependencies :...SNAPSHOT```
 - `mvn release:clean` (because we hot release.properties)
+
+##165 Maven Release Dry Run
+- `mvn clean release:prepare -DdryRun`
+- check everything is correct
+- `mvn release:clean`
