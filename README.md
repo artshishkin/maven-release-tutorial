@@ -26,3 +26,5 @@
 - `mvn clean release:prepare -DdryRun`
 - check everything is correct
 - `mvn release:clean`
+
+##166 CircleCI Configuration
