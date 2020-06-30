@@ -33,4 +33,7 @@
 
 ##167 CircleCI Deploy to PackageCloud
 - added environment variable `PCLOUD` to CircleCI (PackageCloud API Token)
-- created `settings.xml` with settings to deploy to PackageCloud `server` 
+- created `settings.xml` with settings to deploy to PackageCloud `server`
+
+##168 CircleCI Release to PackageCloud
+- `--batch-mode` - use default value when running `mvn` command (i.e. `release:prepare`)  
