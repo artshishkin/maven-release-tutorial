@@ -4,7 +4,7 @@
 
     <groupId>org.artarkatesoft</groupId>
     <artifactId>maven-release-tutorial</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
@@ -18,7 +18,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/artshishkin/maven-release-tutorial.git</developerConnection>
         <url>https://github.com/artshishkin/maven-release-tutorial</url>
-      <tag>maven-release-tutorial-1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
