@@ -42,3 +42,4 @@
 - `<scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>`
 
 - fake commit to test skip ci
+- don't forget to `Pull` project back
